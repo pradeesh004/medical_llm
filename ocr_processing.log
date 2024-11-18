@@ -1,0 +1,115 @@
+2024-11-17 19:22:13,620 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-17 19:22:16,580 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-17 19:22:16,580 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-17 19:22:17,354 - __main__ - ERROR - Error initializing LLM model: medicalai/Bio-Medical-MultiModal-Llama-3-8B-V1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-11-17 19:22:17,382 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.79.248:5000
+2024-11-17 19:22:17,387 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 19:22:30,075 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 19:22:30] "GET / HTTP/1.1" 200 -
+2024-11-17 19:22:30,225 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 19:22:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-17 19:22:38,063 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 19:22:38] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-11-17 19:23:05,608 - werkzeug - INFO - 192.168.79.248 - - [17/Nov/2024 19:23:05] "GET / HTTP/1.1" 200 -
+2024-11-17 19:23:05,725 - werkzeug - INFO - 192.168.79.248 - - [17/Nov/2024 19:23:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-17 19:30:13,303 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-17 19:30:15,751 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-17 19:30:15,764 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-17 19:30:16,675 - __main__ - ERROR - Error initializing LLM model: medicalai/Bio-Medical-MultiModal-Llama-3-8B-V1 is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2024-11-17 19:30:16,697 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.79.248:5000
+2024-11-17 19:30:16,697 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-17 19:30:32,965 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 19:30:32] "GET / HTTP/1.1" 200 -
+2024-11-17 19:30:42,301 - werkzeug - INFO - 127.0.0.1 - - [17/Nov/2024 19:30:42] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-11-17 20:13:42,811 - werkzeug - INFO - 192.168.79.248 - - [17/Nov/2024 20:13:42] "GET / HTTP/1.1" 200 -
+2024-11-17 20:13:51,072 - werkzeug - INFO - 192.168.79.248 - - [17/Nov/2024 20:13:51] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2024-11-17 20:24:30,095 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-17 20:24:32,832 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-17 20:24:32,833 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-17 20:24:33,932 - __main__ - ERROR - Error initializing LLM model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673a03ab-38481f597ffc789f58eb7cc8;39a6c554-aa98-42d9-aa0f-7e271eef55e1)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-17 20:24:33,935 - __main__ - ERROR - Failed to initialize the model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673a03ab-38481f597ffc789f58eb7cc8;39a6c554-aa98-42d9-aa0f-7e271eef55e1)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-17 20:24:33,952 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.79.248:5000
+2024-11-17 20:24:33,956 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:24:49,106 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-18 13:24:51,317 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-18 13:24:51,317 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-18 13:24:52,521 - __main__ - ERROR - Error initializing LLM model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673af2cc-5144e88c3072243c696dc628;6233cc34-a73c-4b85-8f73-1837b52d99d6)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-18 13:24:52,521 - __main__ - ERROR - Failed to initialize the model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673af2cc-5144e88c3072243c696dc628;6233cc34-a73c-4b85-8f73-1837b52d99d6)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-18 13:24:52,572 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.128.248:5000
+2024-11-18 13:24:52,572 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:25:06,055 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2024 13:25:06] "GET / HTTP/1.1" 200 -
+2024-11-18 13:25:06,248 - __main__ - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-18 13:25:06,248 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2024 13:25:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-18 13:25:15,500 - ocr_processing - INFO - Processing image file: 20241118_132515_88ec825c5b8f21e3.png
+2024-11-18 13:25:36,262 - ocr_processing - INFO - Successfully processed 20241118_132515_88ec825c5b8f21e3.png
+2024-11-18 13:25:36,277 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2024 13:25:36] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-18 13:28:03,292 - ocr_processing - INFO - Processing image file: 20241118_132803_86f1c8e81f1cef55.jpg
+2024-11-18 13:28:07,797 - ocr_processing - INFO - Successfully processed 20241118_132803_86f1c8e81f1cef55.jpg
+2024-11-18 13:28:07,797 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2024 13:28:07] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-18 13:29:05,670 - ocr_processing - INFO - Processing image file: 20241118_132905_4d6f8feb9145d5aa.jpg
+2024-11-18 13:29:13,298 - ocr_processing - INFO - Successfully processed 20241118_132905_4d6f8feb9145d5aa.jpg
+2024-11-18 13:29:13,298 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2024 13:29:13] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-18 13:41:23,760 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-18 13:41:26,607 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-18 13:41:26,607 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-18 13:41:28,095 - __main__ - ERROR - Error initializing LLM model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673af6af-7ebc8db770a2764e0f07f028;33459868-952c-427f-9307-7772b1bddc9c)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-18 13:41:28,095 - __main__ - ERROR - Failed to initialize the model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1.
+401 Client Error. (Request ID: Root=1-673af6af-7ebc8db770a2764e0f07f028;33459868-952c-427f-9307-7772b1bddc9c)
+
+Cannot access gated repo for url https://huggingface.co/ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1/resolve/main/config.json.
+Access to model ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1 is restricted. You must have access to it and be authenticated to access it. Please log in.
+2024-11-18 13:41:28,139 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.128.248:5000
+2024-11-18 13:41:28,139 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 13:41:40,813 - werkzeug - INFO - 192.168.128.248 - - [18/Nov/2024 13:41:40] "GET / HTTP/1.1" 200 -
+2024-11-18 13:41:41,003 - __main__ - ERROR - 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-18 13:41:41,006 - werkzeug - INFO - 192.168.128.248 - - [18/Nov/2024 13:41:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-18 13:41:52,992 - ocr_processing - INFO - Processing image file: 20241118_134152_8ced8e5b890f1776.png
+2024-11-18 13:42:12,808 - ocr_processing - INFO - Successfully processed 20241118_134152_8ced8e5b890f1776.png
+2024-11-18 13:42:12,808 - werkzeug - INFO - 192.168.128.248 - - [18/Nov/2024 13:42:12] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-18 14:06:09,444 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-18 14:06:12,222 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-18 14:06:12,222 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-18 14:06:19,397 - transformers_modules.openbmb.MiniCPM-Llama3-V-2_5.320a581d2195ad4a52140bb427a07f7207aeac6e.configuration_minicpm - INFO - vision_config is None, using default vision config
+2024-11-18 14:42:17,960 - easyocr.easyocr - WARNING - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-11-18 14:42:20,766 - ocr_processing - INFO - Initialized OCR processor with languages: ['en']
+2024-11-18 14:42:20,766 - __main__ - INFO - Initializing Bio-Medical LLM model...
+2024-11-18 14:42:22,012 - transformers_modules.openbmb.MiniCPM-Llama3-V-2_5.320a581d2195ad4a52140bb427a07f7207aeac6e.configuration_minicpm - INFO - vision_config is None, using default vision config
